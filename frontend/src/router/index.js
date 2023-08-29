@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Monitoring from '../views/MonitoringView.vue'
 import HomeView2 from "../views/HomeView2.vue";
-import DataGrid from "../views/DataGrid.vue";
 import TabMonitoring from "../components/TabMonitoring.vue";
 import DataTable from "../components/DataTable.vue";
 import DataTest from "../components/DataTest.vue";
@@ -47,7 +46,7 @@ const routes = [
   {
     path: "/datagrid",
     name: "datagrid",
-    component: DataGrid,
+    component: () => import("../views/DataGrid.vue"),
   },
   {
     path: "/about",

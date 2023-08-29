@@ -108,7 +108,7 @@ const randData = [
     name: "l",
     value: 518,
   },
-    {
+  {
     no: 8,
     name: "h",
     value: 408,
@@ -130,6 +130,21 @@ const randData = [
   },
   {
     no: 12,
+    name: "l",
+    value: 518,
+  },
+  {
+    no: 13,
+    name: "l",
+    value: 518,
+  },
+  {
+    no: 14,
+    name: "l",
+    value: 518,
+  },
+  {
+    no: 15,
     name: "l",
     value: 518,
   },

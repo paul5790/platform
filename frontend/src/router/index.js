@@ -17,7 +17,7 @@ const routes = [
     component: () => import("../components/DataTest.vue"),
   },
   {
-    path: "/querycondition",
+    path: "/monitoring/tabanalysis/querycondition",
     name: "querycondition",
     component: () => import("../components/QueryCondition.vue"),
   },
@@ -27,9 +27,14 @@ const routes = [
     component: () => import("../components/DataTable.vue"),
   },
   {
-    path: "/monitoring/Tab1",
+    path: "/monitoring/tabmonitoring",
     name: "TabMonitoring",
     component: () => import("../components/TabMonitoring.vue"),
+  },
+  {
+    path: "/monitoring/tabanalysis",
+    name: "TabAnalysis",
+    component: () => import("../components/TabAnalysis.vue"),
   },
   {
     path: "/home2",
@@ -40,11 +45,6 @@ const routes = [
     path: "/datagrid",
     name: "datagrid",
     component: () => import("../views/DataGrid.vue"),
-  },
-  {
-    path: "/about",
-    name: "about",
-    component: () => import("../views/AboutView.vue"),
   },
 ];
 
